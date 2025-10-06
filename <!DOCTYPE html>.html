@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<title> Flexbox </title>
+<head>
+  .container {
+    display: flex;
+    
+    gap: 10px;
+    gap: 10px; 20px;
+    row-gap: 10px;
+    column-gap: 10px;
+  }
+  .parent {
+  display: flex;
+  height: 300px;
+  text-align: center;
+      color: white;
+      font-size: 18px;
+      border-radius: 8px;
+  }
+  .child {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+ .item {
+  flex-grow: 4; /* default 0 */
+}
+</head>
+</html>
